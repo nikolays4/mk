@@ -1,0 +1,13 @@
+{
+  "name": "Linux Practice Lab",
+  "image": "://microsoft.com",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y tree mc htop nmap net-tools",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.fontSize": 15
+      }
+    }
+  }
+}
